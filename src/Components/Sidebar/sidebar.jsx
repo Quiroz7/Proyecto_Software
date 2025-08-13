@@ -6,11 +6,17 @@ import { useNavigate } from 'react-router-dom';
 const Sidebar = () => {
     
     const navigate = useNavigate();
-
         const handleLogout = () => {
-    
         navigate('/'); 
     };
+
+    const goToProgramaciones = () => {
+      navigate("/programaciones");
+    } ;
+
+    const goToInicio = () => {
+      navigate("/home");
+    } ;
 
   return (
     <div className="sidebar">
@@ -21,8 +27,8 @@ const Sidebar = () => {
       <h2 className="sidebar-title">Nombre del aplicativo</h2>
 
       <ul className="sidebar-list">
-        <li><a href="#">Sobre nosotros</a></li>
-        <li><a href="#">Consultar programaciones</a></li>
+        <li><button className="sidebar-button" onClick={goToInicio}> Inicio</button></li>
+        <li><button className="sidebar-button" onClick={goToProgramaciones}> Consultar Programaciones</button></li>
         <li><button className="sidebar-button" onClick={handleLogout}> Cerrar Sesión</button></li>
       </ul>
     </div>

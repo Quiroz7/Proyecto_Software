@@ -1,0 +1,24 @@
+
+.programaciones-container {
+  display: flex;
+}
+
+.programaciones-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.services-section1, 
+.services-section2, 
+.services-section3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  margin: 20px 0; 
+  background-size: cover;
+  background-position: left center;
+}
+

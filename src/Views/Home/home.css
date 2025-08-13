@@ -1,43 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .home-container {
   display: flex;
-  height: 100vh;
-  background-color: #f4f4f4;
 }
-
 
 .home-content {
   flex: 1;
   padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.home-content h1 {
+  font-size: 36px;
+  text-align: center;
 }
 
 
-.sidebar {
-  width: 220px;
-  background-color: #1e293b;
+.services-section,
+.about-section {
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+
+    
+}
+
+.about-section h2 p {
+  color: #f3f1f1;
+}
+
+
+
+.services-grid {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.service-card {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stats div {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+.about-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.about-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 5px;
+}
+
+
+/* .email-form {
+  display: flex;
+  gap: 10px;
+}
+
+.email-form input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.email-form button {
+  background: black;
   color: white;
-  padding: 20px;
-}
-
-.sidebar-title {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.sidebar-list {
-  list-style: none;
-  padding: 0;
-}
-
-.sidebar-list li {
-  margin-bottom: 15px;
-}
-
-.sidebar-list a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-}
-
-.sidebar-list a:hover {
-  color: #38bdf8;
-}
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+} */
