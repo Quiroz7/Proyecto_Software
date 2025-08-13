@@ -1,0 +1,43 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+
+.home-content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+.sidebar {
+  width: 220px;
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-list li {
+  margin-bottom: 15px;
+}
+
+.sidebar-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.sidebar-list a:hover {
+  color: #38bdf8;
+}
