@@ -12,7 +12,7 @@ const Home = () => {
       <Sidebar />
 
       <div className="home-content">
-        <h1>Bienvenido a ...</h1>
+        <h1>Bienvenido a EcoRuta</h1>
 
         <section
           className="services-section"
@@ -67,7 +67,7 @@ const Home = () => {
         >
           
           <p>
-            En ... promovemos la transformación de residuos aprovechables,
+            En EcoRuta promovemos la transformación de residuos aprovechables,
             por medio de la capacitación a comunidades que nos permita generar
             entre todos un equilibrio en el planeta.
           </p>

@@ -10,11 +10,16 @@ const Login = () => {
         navigate('/home');
     };
 
+    const goToCreateUser = () => {
+      navigate("/createuser");
+    } ;
+
     return (
         <div className="login-page">
             <div className="wrapper">
                 <form onSubmit={handleLogin}>
-                    <h1>Login</h1>
+                    <h1>EcoRuta</h1>
+                    <h2>Login</h2>
                     <div className="input-box">
                         <input type="text" placeholder='Usuario' required />
                         <FaUser className='icon'/>
@@ -32,7 +37,7 @@ const Login = () => {
                     <button type='submit'>Ingresar</button>
 
                     <div className="register-link">
-                        <p>¿No tiene cuenta? <a href="#">Registrarme</a></p>
+                        <p>¿No tiene cuenta? <a onClick={goToCreateUser}>Registrarme</a></p>
                     </div>
                 </form>
             </div>

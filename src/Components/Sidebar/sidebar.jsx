@@ -21,10 +21,11 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
         <div className="sidebar-logo">
-            <FaRecycle size={60} color="white" />
+            <FaRecycle size={50} color="white" />
+            <h2 className="sidebar-title">EcoRuta</h2>
         </div>
 
-      <h2 className="sidebar-title">Nombre del aplicativo</h2>
+      
 
       <ul className="sidebar-list">
         <li><button className="sidebar-button" onClick={goToInicio}> Inicio</button></li>

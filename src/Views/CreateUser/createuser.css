@@ -6,41 +6,40 @@
     box-sizing: border-box;
 }
 
-.login-page{
+.createuser-page{
     font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('../../assets/reciclaje4.jpg') no-repeat;
+    background: url('../../assets/imaghome2.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.wrapper{
+.wrapper-createuser{
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(15px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     /* background: rgb(48, 156, 108); */
-    color: #fff;
+    color: #080808;
     border-radius: 10px;
     padding: 30px 40px;
 }
 
-.wrapper h1{
+.wrapper-createuser h1 {
     font-size: 36px;
     text-align: center;
 }
 
-.wrapper h2 {
-    font-size: 25px;
+.wrapper-createuser h2 {
+    font-size: 18px;
     text-align: center;
 }
 
-
-.wrapper .input-box{
+.wrapper-createuser .input-box{
     position: relative;
     width: 100%;
     height: 50px;
@@ -56,13 +55,13 @@
     outline: none;
     border-radius: 40px;
     font-size: 16px;
-    color: #fff;
+    color: #ffffff;
     padding: 20px 45px 20px 20px;
 
 }
 
 .input-box input::placeholder{
-    color: #fff;
+    color: #000201;
 
 }
 
@@ -74,7 +73,7 @@
     font-size: 16px;
 }
 
-.wrapper .remember-forgot {
+.wrapper-createuser .remember-forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
@@ -95,7 +94,7 @@
     text-decoration: underline;
 }
 
-.wrapper button{
+.wrapper-createuser button{
     width: 100%;
     height: 45px;
     background: #fff;
@@ -110,19 +109,20 @@
 
 }
 
-.wrapper .register-link{
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
     cursor: pointer;
 }
 
-.register-link p a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
+.back-icon {
+    font-size: 24px;
+    color: white;
+    transition: transform 0.2s ease;
 }
 
-.register-link p a:hover{
-    text-decoration: underline;
+.back-icon:hover {
+    transform: scale(1.1);
 }
