@@ -35,10 +35,10 @@ El proyecto está dividido en dos repositorios:
 
 ## Instalación y ejecución
 1. Clonar los repositorios:
-   git clone https://github.com/Quiroz7/Proyecto_Software_Backend.git
-   git clone https://github.com/Quiroz7/Proyecto_Software.git
-   npm install
-   npm run dev
+   - git clone https://github.com/Quiroz7/Proyecto_Software_Backend.git
+   - git clone https://github.com/Quiroz7/Proyecto_Software.git
+   - npm install
+   - npm run dev
 
 ## Notas:
 - El frontend consume directamente la API expuesta por el backend en Render.
