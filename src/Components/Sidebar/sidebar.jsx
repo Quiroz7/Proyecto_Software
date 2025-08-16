@@ -6,10 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Sidebar = () => {
     
     const navigate = useNavigate();
-        const handleLogout = () => {
-        navigate('/'); 
-    };
-
+       
     const goToProgramaciones = () => {
       navigate("/programaciones");
     } ;
@@ -17,6 +14,16 @@ const Sidebar = () => {
     const goToInicio = () => {
       navigate("/home");
     } ;
+
+    const goToRecoleccion = () => {
+      navigate("/recoleccion");
+    } ;
+
+    const handleLogout = () => {
+      localStorage.removeItem("token");
+      localStorage.removeItem("user");
+      navigate("/login");
+    };
 
   return (
     <div className="sidebar">
@@ -30,6 +37,7 @@ const Sidebar = () => {
       <ul className="sidebar-list">
         <li><button className="sidebar-button" onClick={goToInicio}> Inicio</button></li>
         <li><button className="sidebar-button" onClick={goToProgramaciones}> Consultar Programaciones</button></li>
+        <li><button className="sidebar-button" onClick={goToRecoleccion}> Recolección de Residuos</button></li>
         <li><button className="sidebar-button" onClick={handleLogout}> Cerrar Sesión</button></li>
       </ul>
     </div>
