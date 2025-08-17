@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Swal from "sweetalert2"; // 👈 importamos SweetAlert2
-import "./Modal.css";
+import "./modal.css";
 
 const Modal = ({ onClose, onSaved }) => {
   const [fecha, setFecha] = useState("");
