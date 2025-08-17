@@ -43,7 +43,7 @@ const CreateUser = () => {
                     icon: "success",
                     confirmButtonText: "Ir al Login"
                 }).then(() => {
-                    navigate("/login");
+                    navigate("/");
                 });
 
             } else {
