@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "../../Components/Sidebar/sidebar";
 import GuideCard from "../../Components/GuideCard/guidecard";
 import Calendary from "../../Components/Calendary/calendary";
-import "./Programaciones.css";
+import "./programaciones.css";
 
 import imaghome1 from "../../assets/imaghome1.jpg";
 import imaghome2 from "../../assets/imaghome2.jpg";

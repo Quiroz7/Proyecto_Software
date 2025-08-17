@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Modal from "../Modal/modal";
-import "./Table.css";
+import "./table.css";
 
 const Table = () => {
   const [showModal, setShowModal] = useState(false);

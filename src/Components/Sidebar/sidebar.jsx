@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sidebar.css"; // Si quieres separar sus estilos
+import "./sidebar.css"; // Si quieres separar sus estilos
 import { FaRecycle } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 

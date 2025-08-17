@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../../Components/Sidebar/sidebar";
-import "./Home.css";
+import "./home.css";
 
 import imaghome1 from "../../assets/imaghome1.jpg";
 import imaghome2 from "../../assets/imaghome2.jpg";
