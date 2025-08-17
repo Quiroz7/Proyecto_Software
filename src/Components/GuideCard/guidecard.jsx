@@ -1,5 +1,5 @@
 import React from "react";
-import "./GuideCard.css";
+import "./guideCard.css";
 
 const GuideCard = ({ imageSrc, text, buttonText, onButtonClick }) => {
   return (
