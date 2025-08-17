@@ -10,7 +10,7 @@ const CreateUser = () => {
     const navigate = useNavigate();
 
     const goToLogin = () => {
-        navigate("/login");
+        navigate("/");
     };
 
     const [formData, setFormData] = useState({

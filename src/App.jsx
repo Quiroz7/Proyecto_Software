@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Routes>
         {/* Ruta pública */}
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/createuser" element={<Createuser />} />
 
         {/* Rutas protegidas */}
